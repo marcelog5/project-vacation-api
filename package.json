@@ -1,0 +1,19 @@
+{
+  "name": "project-vacation-api",
+  "version": "1.0.0",
+  "description": "The api of the project-vacation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelog5/project-vacation-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelog5/project-vacation-api/issues"
+  },
+  "homepage": "https://github.com/marcelog5/project-vacation-api#readme"
+}
