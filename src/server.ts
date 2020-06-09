@@ -2,8 +2,11 @@ import express from 'express';
 
 const app = express();
 
-app.get('/users', () => {
-    console.log('Listagem de usuários');
+const PORT = 3333;
+const HOST = '0.0.0.0';
+
+app.get('/users', (request, response) => {
+    response.send('Server is working');
 });
 
-app.listen(3333);
+app.listen(PORT, HOST);
